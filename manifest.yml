@@ -1,0 +1,9 @@
+---
+applications:
+- name: python-simulator
+  memory: 512MB
+  disk_quota: 512MB
+  buildpack: https://github.com/cloudfoundry/buildpack-python.git
+  command: python python_simulator.py
+  #services:
+   	

@@ -1,0 +1,8 @@
+pip >= 9
+Flask
+
+requests
+
+pandas
+websocket-client==0.35.0
+gunicorn
